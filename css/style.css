@@ -1,0 +1,74 @@
+
+* {
+	outline: none !important;
+}
+
+body {
+	font-family: 'PT Sans';
+}
+
+.math-app {
+	width: 975px;
+	height: 400px;
+	border: 1px solid #000;
+	position: relative;
+}
+.example-wrapper {
+	font-size: 42px;
+	text-align: center;
+	margin-top: 40px;
+}
+.example-wrapper span, .example-wrapper div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.example__a, .example__b {
+	line-height: 44px;
+	padding: 0 5px;
+}
+.example__result input {
+	width: 64px;
+	height: 49px;
+	font-size: 42px;
+	border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+}
+
+.scale-wrapper {
+	text-align: center;
+	padding: 150px 50px 0;
+	position: relative;
+}
+
+.scale {
+	width: 875px;
+	height: 83px;
+	background-image: url(../img/sprite.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.input_first, .input_second {
+	width: 20px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+.arrow-input-one {
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+.arrow-input-two {
+	position: absolute;
+	top: 50px;
+	left: 350px;
+	display: none;
+}
+.ready {
+	border-color: green;
+}
